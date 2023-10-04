@@ -39,7 +39,7 @@ const App = () => {
           };
           return obj;
         });
-      }, 100);
+      }, 1000);
     }
     return () => clearInterval(intervalId);
   }, [isRunning]);
